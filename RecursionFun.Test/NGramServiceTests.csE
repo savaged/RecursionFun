@@ -1,6 +1,6 @@
 using savaged.NGram.Lib;
 
-namespace RecursionFun.NGram.Test;
+namespace savaged.NGram.Test;
 
 public class NGramServiceTests
 {
