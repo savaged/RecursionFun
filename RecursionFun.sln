@@ -1,8 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "savaged.NGram.Lib", "savaged.NGram.Lib\savaged.NGram.Lib.csproj", "{8F7A49E1-78F1-4851-947D-8CBE04C37B04}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursionFun.NGram.Lib", "RecursionFun.NGram.Lib\RecursionFun.NGram.Lib.csproj", "{8F7A49E1-78F1-4851-947D-8CBE04C37B04}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "savaged.NGram.Test", "savaged.NGram.Test\savaged.NGram.Test.csproj", "{0D7F6A64-AE1C-4B7E-B06F-A92D3AFB7878}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursionFun.Test", "RecursionFun.Test\RecursionFun.Test.csproj", "{0D7F6A64-AE1C-4B7E-B06F-A92D3AFB7878}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
