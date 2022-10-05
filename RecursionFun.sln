@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursionFun.Test", "Recurs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecursionFun.LevenshteinDistance.Lib", "RecursionFun.LevenshteinDistance.Lib\RecursionFun.LevenshteinDistance.Lib.csproj", "{1D0B610B-763E-4CE2-9D4E-DD1E0F0A2833}"
 EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "RecursionFun.LevenshteinDistance.FSharpLib", "RecursionFun.LevenshteinDistance.FSharpLib\RecursionFun.LevenshteinDistance.FSharpLib.fsproj", "{52EAD9B8-D8D8-48FB-B183-741BBAC81B6E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{1D0B610B-763E-4CE2-9D4E-DD1E0F0A2833}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1D0B610B-763E-4CE2-9D4E-DD1E0F0A2833}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1D0B610B-763E-4CE2-9D4E-DD1E0F0A2833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52EAD9B8-D8D8-48FB-B183-741BBAC81B6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52EAD9B8-D8D8-48FB-B183-741BBAC81B6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52EAD9B8-D8D8-48FB-B183-741BBAC81B6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52EAD9B8-D8D8-48FB-B183-741BBAC81B6E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
