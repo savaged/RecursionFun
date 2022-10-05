@@ -7,7 +7,7 @@
 
         <IsPackable>false</IsPackable>
 
-        <RootNamespace>savaged.NGram.Test</RootNamespace>
+        <RootNamespace>RecursionFun.Test</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -24,6 +24,7 @@
     </ItemGroup>
 
     <ItemGroup>
+      <ProjectReference Include="..\RecursionFun.LevenshteinDistance.Lib\RecursionFun.LevenshteinDistance.Lib.csproj" />
       <ProjectReference Include="..\RecursionFun.NGram.Lib\RecursionFun.NGram.Lib.csproj" />
     </ItemGroup>
 

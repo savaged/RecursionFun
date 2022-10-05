@@ -1,6 +1,6 @@
-using savaged.NGram.Lib;
+using RecursionFun.NGram.Lib;
 
-namespace RecursionFun.NGram.Test;
+namespace RecursionFun.Test;
 
 public class NGramServiceTests
 {
@@ -14,19 +14,19 @@ public class NGramServiceTests
     [Fact]
     public void NGramTest()
     {
-        //Given searchQuery is: "Oak Furnitureland Group Limited"
-        var searchQuery = "Oak Furnitureland Group Limited";
+        //Given phrase is: "Come as you are"
+        var phrase = "Come as you are";
         //When split is run 
-        var result = _nGramService.ToNGrams(searchQuery);
+        var result = _nGramService.ToNGrams(phrase);
         //Then Result is a collection
         Assert.NotNull(result);
-        //And 1st item in the collection is "Oak Furnitureland Group Limited"
-        Assert.Equal("Oak Furnitureland Group Limited", result[0]);
-        //And 2nd item in the collection is "Oak Furniture Land" 
-        Assert.Equal("Oak Furnitureland Group", result[1]);
-        //And 3rd item in the collection is "Oak Furniture"
-        Assert.Equal("Oak Furnitureland", result[2]);
-        //And 4th item in the collection is "Oak"
-        Assert.Equal("Oak", result[3]);
+        //And 1st item in the collection is "Come as you are"
+        Assert.Equal("Come as you are", result[0]);
+        //And 2nd item in the collection is "Come as you" 
+        Assert.Equal("Come as you", result[1]);
+        //And 3rd item in the collection is "Come as"
+        Assert.Equal("Come as", result[2]);
+        //And 4th item in the collection is "Come"
+        Assert.Equal("Come", result[3]);
     }
 }
