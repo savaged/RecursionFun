@@ -7,7 +7,6 @@
 
     <ItemGroup>
         <Compile Include="Library.fs" />
-        <None Include="LibraryTest.fsx" />
     </ItemGroup>
 
 </Project>

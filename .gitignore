@@ -4,3 +4,6 @@ obj/
 riderModule.iml
 .idea/
 *.user
+*.suo
+/.vs/RecursionFun/FileContentIndex
+/.vs/RecursionFun/DesignTimeBuild

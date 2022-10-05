@@ -21,3 +21,6 @@ module LevenshteinDistanceService =
 
         levdist_cont sa sb -1 -1 (fun x -> x)
         
+module LevenshteinDistanceServiceTest = 
+    LevenshteinDistanceService.levdist "guisuifgh" "sfg"
+    |> printf "%A"
